@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: black;
+    
+}
+
+.main {
+    height: 110vh;
+    padding-top: 20px;
+    background-image: url(Assets/Images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    position: relative;
+
+}
+
+.main .box {
+    height: 120vh;
+    width: 100%;
+    opacity: 53.2%;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    max-width: 76vw;
+    height: 50px;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav img {
+    color: red;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.maincontent {
+    font-family: sans-serif;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+
+}
+
+.maincontent> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.maincontent> :nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.maincontent> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.maincontent> :nth-child(4) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 5px;
+    background-color: rgb(92, 90, 90);
+    position: relative;
+}
+
+.butn {
+    padding: 3px, 8px;
+    background-color: rgba(23, 23, 23, 0.658);
+    font-weight: lighter;
+    color: white;
+    z-index: 10;
+    width: 103px;
+    height: 33px;
+    border-radius: 2px;
+    border-color: white;
+    border-width: thin;
+    font-family: sans-serif;
+    
+}
+
+.butn-red-sn {
+
+    background-color: red;
+    font-weight: lighter;
+    color: white;
+    width: 73px;
+    height: 33px;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+   
+}
+
+.butn-red {
+
+    background-color: red;
+    font-weight:700;
+    color: white;
+    padding: 11px;
+    font-size: 20px;
+    border-radius: 4px;
+    border-width: thin;
+    width: 215px;
+    height: 52px;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+.main input {
+    padding: 11px;
+    width: 325px;
+    height: 25px;
+    background-color: rgba(23, 23, 23, 0.521);
+    border-color: red;
+    border-width: thin;
+    border-radius: 6px;
+    font-weight: 500;
+    color: white;
+    z-index: 10;
+    font-family: sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secimg1{
+    position: relative;
+    
+
+}
+.secimg1 img{
+    width: 556px;
+    position: relative;
+    z-index: 10;
+}
+.secimg1 video{
+    position: absolute;
+    top: 61px;
+    right: 51px;
+    height: 253px;
+}
+
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.second >div :first-child{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.second > div  :nth-child(2){
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.third >div :first-child{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.third > div  :nth-child(2){
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.forth{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.forth >div :first-child{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.forth > div  :nth-child(2){
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.third .secimg1 video{
+    
+    position: absolute;
+    top: 45px;
+    right: 109px;
+    height: 207px;
+    width: 340px;
+}
+    
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faq h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+}
+.faqbox{
+    font-family: sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 24px;
+    color: white;
+    max-width: 60vw;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    cursor: pointer;
+
+}
+.faqbox:hover{
+    background-color: rgb(56, 55, 55);
+}
+.footermain{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    height: 200px;
+
+}
+
+.footermain :first-child{
+ 
+    font-weight: 400;
+    font-size: 20px;
+}
+.footermain input {
+    padding: 11px;
+    width: 325px;
+    height: 25px;
+    background-color: rgba(23, 23, 23, 0.521);
+    border-color: green;
+    border-width: thin;
+    border-radius: 6px;
+    font-weight: 500;
+    color: white;
+    z-index: 10;
+    font-family: sans-serif;
+    align-content: start;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: white;
+}
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    font-family:sans-serif;
+    font-weight: lighter; 
+}
+.footer a{
+    color: white;
+    font-size: 14px;
+}
+.que{
+    
+    padding-bottom: 34px;
+
+}
